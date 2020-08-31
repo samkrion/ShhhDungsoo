@@ -11,6 +11,7 @@
 		47E682B424F8F89F008D5D5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E682B324F8F89F008D5D5E /* ViewController.swift */; };
 		47E682B624F8F8A0008D5D5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E682B524F8F8A0008D5D5E /* Assets.xcassets */; };
 		47E682B924F8F8A0008D5D5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E682B724F8F8A0008D5D5E /* Main.storyboard */; };
+		47E682C224F8F904008D5D5E /* NSSound_SystemVolumeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E682C124F8F904008D5D5E /* NSSound_SystemVolumeExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		47E682B824F8F8A0008D5D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47E682BA24F8F8A0008D5D5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47E682BB24F8F8A0008D5D5E /* ShhhDungsoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShhhDungsoo.entitlements; sourceTree = "<group>"; };
+		47E682C124F8F904008D5D5E /* NSSound_SystemVolumeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSSound_SystemVolumeExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				47E682B724F8F8A0008D5D5E /* Main.storyboard */,
 				47E682BA24F8F8A0008D5D5E /* Info.plist */,
 				47E682BB24F8F8A0008D5D5E /* ShhhDungsoo.entitlements */,
+				47E682C124F8F904008D5D5E /* NSSound_SystemVolumeExtension.swift */,
 			);
 			path = ShhhDungsoo;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			files = (
 				47E682B424F8F89F008D5D5E /* ViewController.swift in Sources */,
 				47E682B224F8F89F008D5D5E /* AppDelegate.swift in Sources */,
+				47E682C224F8F904008D5D5E /* NSSound_SystemVolumeExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bluehouse.ShhhDungsoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -299,6 +304,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.bluehouse.ShhhDungsoo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
